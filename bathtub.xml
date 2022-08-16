@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\amunchet\Documents\electronics\bathtub\bathtub.kicad_sch</source>
-    <date>8/13/2022 7:26:36 PM</date>
+    <date>8/16/2022 3:08:50 AM</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -35,22 +35,22 @@
       <tstamps>37bbe582-de7b-4ae6-a1a1-121ad2e865ad</tstamps>
     </comp>
     <comp ref="C1">
-      <value>0.1uF</value>
+      <value>0.01uF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9f85c023-f7b4-40db-8d16-521a9c10d1bf</tstamps>
+      <tstamps>80ef48e3-d832-45a7-b29d-f0f0d3e827fd</tstamps>
     </comp>
     <comp ref="C2">
-      <value>0.1uF</value>
+      <value>0.01uF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>09860fcb-55b1-4a9a-9693-03a654051baa</tstamps>
+      <tstamps>cbc11dd7-968e-4235-90ec-edf8bd07e18f</tstamps>
     </comp>
     <comp ref="C3">
       <value>0.33uF</value>
@@ -88,7 +88,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d659d6db-10ae-47a0-82d0-014035237a71</tstamps>
+      <tstamps>ac5c41aa-2d05-4374-80a5-7cacffff593f</tstamps>
     </comp>
     <comp ref="D3">
       <value>LED - 2V</value>
@@ -109,7 +109,7 @@
       <tstamps>2769400f-05cc-41b8-871e-0bda7987de90</tstamps>
     </comp>
     <comp ref="F1">
-      <value>Slow Blow Fuse - 1.5A</value>
+      <value>Slow Blow Fuse - 2A</value>
       <footprint>Fuse:Fuseholder_Littelfuse_100_series_5x20mm</footprint>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Sheetname" value=""/>
@@ -118,22 +118,22 @@
       <tstamps>08e62c72-34d1-4603-ba14-f9b17b2f641e</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Screw_Terminal_01x03 - Hot water</value>
-      <footprint>TerminalBlock_WAGO:TerminalBlock_WAGO_236-103_1x03_P5.00mm_45Degree</footprint>
-      <libsource lib="" part="Screw_Terminal_01x03_1" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="bathtub.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6cac6a0b-80e6-4ba5-b10b-8a53dc272a3e</tstamps>
-    </comp>
-    <comp ref="J2">
-      <value>Screw_Terminal_01x03 - Cold water</value>
+      <value>Screw_Terminal_01x03</value>
       <footprint>TerminalBlock_WAGO:TerminalBlock_WAGO_236-103_1x03_P5.00mm_45Degree</footprint>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bac17b83-ee1e-4f75-ae7a-f27d56a49ce9</tstamps>
+      <tstamps>612aadb6-8188-42ab-bd7e-d81a2def4a05</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_WAGO:TerminalBlock_WAGO_236-103_1x03_P5.00mm_45Degree</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bathtub.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdb7b74d-8d7b-4a35-b8ee-7a7383947def</tstamps>
     </comp>
     <comp ref="J3">
       <value>Screw_Terminal_01x02</value>
@@ -153,15 +153,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a93245ae-8679-4b2a-b710-910f7c46a949</tstamps>
     </comp>
-    <comp ref="PS1">
-      <value>IH2405S</value>
-      <footprint>Converter_DCDC:Converter_DCDC_XP_POWER-IHxxxxS_THT</footprint>
-      <datasheet>https://www.xppower.com/pdfs/SF_IH.pdf</datasheet>
-      <libsource lib="Converter_DCDC" part="IH2405S" description="XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 24V Input Voltage, SIP"/>
+    <comp ref="J5">
+      <value>Barrel_Jack</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles</footprint>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6f0ab0bd-bf64-4e38-8283-49d36c1c8362</tstamps>
+      <tstamps>4ba383d6-d364-4683-9320-ae2e90e470c6</tstamps>
     </comp>
     <comp ref="Q1">
       <value>2N2219</value>
@@ -181,10 +180,10 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2c1b6204-1577-439b-bfb9-3331a9eec195</tstamps>
+      <tstamps>70c79c78-5b44-4a73-bfeb-0242d061e57b</tstamps>
     </comp>
     <comp ref="R1">
-      <value>250 ohms</value>
+      <value>250</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -193,25 +192,25 @@
       <tstamps>14296e49-d9c5-4c74-bd38-b0a1b6b20d29</tstamps>
     </comp>
     <comp ref="R2">
-      <value>250 ohms</value>
+      <value>250</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>730172a8-ac28-48d1-b7ef-7887099dd045</tstamps>
+      <tstamps>22d58cb6-42d2-4b9e-b9a2-acbb26fbc921</tstamps>
     </comp>
     <comp ref="R3">
-      <value>200ohm</value>
+      <value>200</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>55b2f9b5-3781-4b9d-b853-1c99dbf48c61</tstamps>
+      <tstamps>e7956ffd-a017-4cc6-b387-543c3d2daa1e</tstamps>
     </comp>
     <comp ref="R4">
-      <value>100ohm</value>
+      <value>220</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -220,7 +219,7 @@
       <tstamps>e3490494-25c3-4fc8-ac05-755a38dbdd0a</tstamps>
     </comp>
     <comp ref="R5">
-      <value>100ohm</value>
+      <value>220</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
@@ -229,13 +228,13 @@
       <tstamps>b29a8118-b830-448f-a39b-7d54dcecd50d</tstamps>
     </comp>
     <comp ref="R6">
-      <value>200ohm</value>
+      <value>200</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="bathtub.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b1f1cffc-2f76-4700-9100-2b1bd941a53c</tstamps>
+      <tstamps>eb4b1629-5205-4b4f-9071-881009735195</tstamps>
     </comp>
     <comp ref="R7">
       <value>.01</value>
@@ -264,6 +263,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>34379385-d063-4656-9cfa-c19c2aa7503c</tstamps>
     </comp>
+    <comp ref="R10">
+      <value>.01</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bathtub.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d01bdc37-3f07-4546-8b99-fa04a2624741</tstamps>
+    </comp>
     <comp ref="SW1">
       <value>SW_Push</value>
       <footprint>Button_Switch_THT:SW_CW_GPTS203211B</footprint>
@@ -282,23 +290,52 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>02d60670-595f-4f3f-8e62-6baa1d747bff</tstamps>
     </comp>
+    <comp ref="U1">
+      <value>L7805CV</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964</field>
+        <field name="Description">IC REG LINEAR 5V 1.5A TO220AB</field>
+        <field name="Digi-Key_PN">497-1443-5-ND</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="MPN">L7805CV</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_PMIC-Voltage-Regulators-Linear" part="L7805CV" description="IC REG LINEAR 5V 1.5A TO220AB"/>
+      <property name="Digi-Key_PN" value="497-1443-5-ND"/>
+      <property name="MPN" value="L7805CV"/>
+      <property name="Category" value="Integrated Circuits (ICs)"/>
+      <property name="Family" value="PMIC - Voltage Regulators - Linear"/>
+      <property name="DK_Datasheet_Link" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964"/>
+      <property name="Description" value="IC REG LINEAR 5V 1.5A TO220AB"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bathtub.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>618f79aa-7726-43fb-bb85-73814b90ee77</tstamps>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="" part="Screw_Terminal_01x03_1">
-      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <description>DC Barrel Jack</description>
       <docs>~</docs>
       <footprints>
-        <fp>TerminalBlock*:*</fp>
+        <fp>BarrelJack*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Screw_Terminal_01x03_1</field>
+        <field name="Value">Barrel_Jack</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Screw_Terminal_01x02">
@@ -332,26 +369,6 @@
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Converter_DCDC" part="IH2405S">
-      <description>XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 24V Input Voltage, SIP</description>
-      <docs>https://www.xppower.com/pdfs/SF_IH.pdf</docs>
-      <footprints>
-        <fp>*XP?POWER?IHxxxxS*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">PS</field>
-        <field name="Value">IH2405S</field>
-        <field name="Footprint">Converter_DCDC:Converter_DCDC_XP_POWER-IHxxxxS_THT</field>
-        <field name="Datasheet">https://www.xppower.com/pdfs/SF_IH.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="+Vin" type="power_in"/>
-        <pin num="2" name="-Vin" type="power_in"/>
-        <pin num="4" name="-Vout" type="power_out"/>
-        <pin num="5" name="0V" type="power_out"/>
-        <pin num="6" name="+Vout" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -515,13 +532,34 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="dk_PMIC-Voltage-Regulators-Linear" part="L7805CV">
+      <description>IC REG LINEAR 5V 1.5A TO220AB</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805CV</field>
+        <field name="Footprint">digikey-footprints:TO-220-3</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+        <field name="Digi-Key_PN">497-1443-5-ND</field>
+        <field name="MPN">L7805CV</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964</field>
+        <field name="Description">IC REG LINEAR 5V 1.5A TO220AB</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
-    </library>
-    <library logical="Converter_DCDC">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Converter_DCDC.kicad_sym</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
@@ -538,209 +576,194 @@
     <library logical="Transistor_BJT">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
     </library>
+    <library logical="dk_PMIC-Voltage-Regulators-Linear">
+      <uri>C:/Users/amunchet/Documents/KiCad/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_PMIC-Voltage-Regulators-Linear.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="+24V">
-      <node ref="F1" pin="1" pintype="passive+no_connect"/>
-    </net>
-    <net code="2" name="-24V">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="PS1" pin="2" pinfunction="-Vin" pintype="power_in"/>
-    </net>
-    <net code="3" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="4" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="5" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="PS1" pin="1" pinfunction="+Vin" pintype="power_in"/>
-      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
-    </net>
-    <net code="6" name="Net-(C4-Pad1)">
+    <net code="1" name="+12V">
       <node ref="A1" pin="8" pinfunction="VIN" pintype="power_in"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="PS1" pin="6" pinfunction="+Vout" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="OUT" pintype="power_out"/>
     </net>
-    <net code="7" name="Net-(C4-Pad2)">
+    <net code="2" name="+24V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="GND">
       <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
       <node ref="A1" pin="6" pinfunction="GND" pintype="power_in"/>
       <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="PS1" pin="4" pinfunction="-Vout" pintype="power_out"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
-    </net>
-    <net code="8" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="2" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
-    </net>
-    <net code="9" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
-    </net>
-    <net code="10" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-    </net>
-    <net code="12" name="Net-(Q1-Pad2)">
-      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-    </net>
-    <net code="13" name="Net-(Q2-Pad2)">
-      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-    </net>
-    <net code="14" name="Net-(R1-Pad2)">
-      <node ref="A1" pin="21" pinfunction="D6" pintype="bidirectional"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-    </net>
-    <net code="15" name="Net-(R2-Pad2)">
-      <node ref="A1" pin="17" pinfunction="D2" pintype="bidirectional"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-    </net>
-    <net code="16" name="Net-(R3-Pad2)">
-      <node ref="A1" pin="28" pinfunction="D13" pintype="bidirectional"/>
       <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="17" name="Net-(R4-Pad2)">
-      <node ref="A1" pin="19" pinfunction="D4" pintype="bidirectional"/>
-      <node ref="R4" pin="2" pintype="passive"/>
-    </net>
-    <net code="18" name="Net-(R5-Pad2)">
-      <node ref="A1" pin="18" pinfunction="D3" pintype="bidirectional"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-    </net>
-    <net code="19" name="Net-(R6-Pad2)">
-      <node ref="A1" pin="23" pinfunction="D8" pintype="bidirectional"/>
       <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="20" name="Net-(R7-Pad2)">
-      <node ref="A1" pin="20" pinfunction="D5" pintype="bidirectional"/>
-      <node ref="R7" pin="2" pintype="passive"/>
+    <net code="4" name="Net-(A1-Pad5)">
+      <node ref="A1" pin="5" pinfunction="+5V" pintype="power_out"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(R8-Pad2)">
+    <net code="5" name="Net-(A1-Pad9)">
       <node ref="A1" pin="9" pinfunction="A0" pintype="bidirectional"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(SW1-Pad1)">
-      <node ref="A1" pin="5" pinfunction="+5V" pintype="power_out"/>
-      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="6" name="Net-(A1-Pad17)">
+      <node ref="A1" pin="17" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="23" name="unconnected-(A1-Pad1)">
-      <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    <net code="7" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="unconnected-(A1-Pad2)">
-      <node ref="A1" pin="2" pinfunction="IOREF" pintype="output"/>
+    <net code="8" name="Net-(A1-Pad19)">
+      <node ref="A1" pin="19" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="25" name="unconnected-(A1-Pad3)">
-      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    <net code="9" name="Net-(A1-Pad23)">
+      <node ref="A1" pin="23" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="26" name="unconnected-(A1-Pad4)">
-      <node ref="A1" pin="4" pinfunction="3V3" pintype="power_out"/>
-    </net>
-    <net code="27" name="unconnected-(A1-Pad10)">
-      <node ref="A1" pin="10" pinfunction="A1" pintype="bidirectional"/>
-    </net>
-    <net code="28" name="unconnected-(A1-Pad11)">
-      <node ref="A1" pin="11" pinfunction="A2" pintype="bidirectional"/>
-    </net>
-    <net code="29" name="unconnected-(A1-Pad12)">
-      <node ref="A1" pin="12" pinfunction="A3" pintype="bidirectional"/>
-    </net>
-    <net code="30" name="unconnected-(A1-Pad13)">
-      <node ref="A1" pin="13" pinfunction="SDA/A4" pintype="bidirectional"/>
-    </net>
-    <net code="31" name="unconnected-(A1-Pad14)">
-      <node ref="A1" pin="14" pinfunction="SCL/A5" pintype="bidirectional"/>
-    </net>
-    <net code="32" name="unconnected-(A1-Pad15)">
-      <node ref="A1" pin="15" pinfunction="D0/RX" pintype="bidirectional"/>
-    </net>
-    <net code="33" name="unconnected-(A1-Pad16)">
-      <node ref="A1" pin="16" pinfunction="D1/TX" pintype="bidirectional"/>
-    </net>
-    <net code="34" name="unconnected-(A1-Pad22)">
-      <node ref="A1" pin="22" pinfunction="D7" pintype="bidirectional"/>
-    </net>
-    <net code="35" name="unconnected-(A1-Pad24)">
+    <net code="10" name="Net-(A1-Pad24)">
       <node ref="A1" pin="24" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="36" name="unconnected-(A1-Pad25)">
-      <node ref="A1" pin="25" pinfunction="D10" pintype="bidirectional"/>
-    </net>
-    <net code="37" name="unconnected-(A1-Pad26)">
-      <node ref="A1" pin="26" pinfunction="D11" pintype="bidirectional"/>
-    </net>
-    <net code="38" name="unconnected-(A1-Pad27)">
+    <net code="11" name="Net-(A1-Pad27)">
       <node ref="A1" pin="27" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="39" name="unconnected-(A1-Pad30)">
+    <net code="12" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(A1-Pad30)">
       <node ref="A1" pin="30" pinfunction="AREF" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
     </net>
-    <net code="40" name="unconnected-(A1-Pad31)">
-      <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional"/>
-    </net>
-    <net code="41" name="unconnected-(A1-Pad32)">
-      <node ref="A1" pin="32" pinfunction="SCL/A5" pintype="bidirectional"/>
-    </net>
-    <net code="42" name="unconnected-(J1-Pad1)">
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="43" name="unconnected-(J1-Pad2)">
+    <net code="14" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="44" name="unconnected-(J2-Pad1)">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="45" name="unconnected-(J2-Pad2)">
+    <net code="15" name="Net-(D2-Pad2)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="46" name="unconnected-(J3-Pad1)">
+    <net code="16" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J3-Pad1)">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="47" name="unconnected-(J3-Pad2)">
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="48" name="unconnected-(J4-Pad1)">
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="49" name="unconnected-(J4-Pad2)">
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="50" name="unconnected-(J4-Pad3)">
-      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
-    </net>
-    <net code="51" name="unconnected-(PS1-Pad5)">
-      <node ref="PS1" pin="5" pinfunction="0V" pintype="power_out"/>
-    </net>
-    <net code="52" name="unconnected-(R7-Pad1)">
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="unconnected-(R8-Pad1)">
+    <net code="20" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="unconnected-(R9-Pad1)">
+    <net code="22" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="IOREF" pintype="output"/>
+    </net>
+    <net code="29" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(A1-Pad4)">
+      <node ref="A1" pin="4" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="31" name="unconnected-(A1-Pad10)">
+      <node ref="A1" pin="10" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(A1-Pad11)">
+      <node ref="A1" pin="11" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(A1-Pad12)">
+      <node ref="A1" pin="12" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(A1-Pad13)">
+      <node ref="A1" pin="13" pinfunction="SDA/A4" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(A1-Pad14)">
+      <node ref="A1" pin="14" pinfunction="SCL/A5" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(A1-Pad16)">
+      <node ref="A1" pin="16" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(A1-Pad21)">
+      <node ref="A1" pin="21" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(A1-Pad22)">
+      <node ref="A1" pin="22" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="D11" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(A1-Pad31)">
+      <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(A1-Pad32)">
+      <node ref="A1" pin="32" pinfunction="SCL/A5" pintype="bidirectional"/>
     </net>
   </nets>
 </export>
